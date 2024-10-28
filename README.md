@@ -1,3 +1,26 @@
+# OUTPUT
+![image](https://github.com/user-attachments/assets/735c55de-91c4-40d3-a91f-92f6a69895ef)
+# DESCRIPTION
+## Project Overview
+
+My To-Do List is a simple yet functional web application built using React. It allows users to create, manage, and track their tasks efficiently. This project showcases fundamental React concepts, including state management, component-based architecture, and user interactions.
+
+## Features
+
+- **Add Tasks**: Users can easily add new tasks to their to-do list.
+- **Delete Tasks**: Users can remove tasks once they are completed or no longer needed.
+- **Mark as Completed**: Users can mark tasks as completed for better task management.
+- **Responsive Design**: The application is designed to be responsive, providing a seamless experience across different devices.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **gh-pages**: Used for deploying the application to GitHub Pages.
+- **HTML & CSS**: For structuring and styling the application.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
