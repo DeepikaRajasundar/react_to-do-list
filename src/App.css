@@ -1,38 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://thumbs.dreamstime.com/b/blue-background-image-to-do-list-paper-butterflies-102882334.jpg');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the body take full height */
+}
+
 .App {
+  width: 100%; /* Take full width up to max-width */
+  max-width: 600px; /* Max width for the app */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly more transparent for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%; /* Adjusted width */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Bootstrap primary color */
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+}
+
+li div {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+.App {
+  width: 100%; /* Take full width up to max-width */
+  max-width: 800px; /* Increased max width for a broader appearance */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly more transparent for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
